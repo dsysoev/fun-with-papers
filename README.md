@@ -16,6 +16,17 @@ This paper presents SimCLR: a simple framework for contrastive learning of visua
 - [with comments](2002.05709.pdf)
 
 
+# Structural Deep Network Embedding
+read 2020-03-01
+
+![](images/rfp0191-wangAemb_edit.png)
+
+Network embedding is an important method to learn low-dimensional representations of vertexes in networks, aiming to capture and pre- serve the network structure. Almost all the existing network embedding methods adopt shallow models. However, since the underlying network structure is complex, shallow models cannot capture the highly non-linear network structure, resulting in sub-optimal network representations. Therefore, how to find a method that is able to effectively capture the highly non-linear network structure and preserve the global and local structure is an open yet important problem. To solve this problem, in this paper we propose a Structural Deep Network Embedding method, namely SDNE. More specifically, we first propose a semi-supervised deep model, which has multiple layers of non-linear functions, thereby being able to capture the highly non-linear network structure. Then we propose to exploit the first-order and second-order proximity jointly to p- reserve the network structure. The second-order proximity is used by the unsupervised component to capture the global network structure. While the first-order proximity is used as the supervised information in the supervised component to preserve the local network structure. By jointly optimizing them in the semi-supervised deep model, our method can preserve both the local and global network structure and is robust to sparse networks. Empirically, we conduct the experiments on five real-world networks, including a language network, a citation network and three social networks. The results show that compared to the baselines, our method can reconstruct the original network significantly better and achieves substantial gains in three applications, i.e. multi-label classification, link prediction and visualization.
+
+- [paper](https://www.kdd.org/kdd2016/subtopic/view/structural-deep-network-embedding)
+- [with comments](rfp0191-wangAemb_edit.pdf)
+
+
 # Graph Embedding Techniques, Applications, and Performance: A Survey
 read: 2020-02-26
 
