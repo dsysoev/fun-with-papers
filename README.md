@@ -5,6 +5,8 @@ A collection of read papers with comments
 # A Simple Framework for Contrastive Learning of Visual Representations
 read: 2020-03-29
 
+![](images/2002.05709.png)
+
 Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton
 (Submitted on 13 Feb 2020)
 
