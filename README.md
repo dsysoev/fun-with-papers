@@ -2,6 +2,27 @@
 
 A collection of read papers with comments
 
+# Large batch training of convolutional networks
+read: to be
+
+Yang You, Igor Gitman, Boris Ginsburg
+(Submitted on 13 Aug 2017)
+
+A common way to speed up training of large convolutional networks is to add computational units. Training is then performed using data-parallel synchronous Stochastic Gradient Descent (SGD) with mini-batch divided between computational units. With an increase in the number of nodes, the batch size grows. But training with large batch size often results in the lower model accuracy. We argue that the current recipe for large batch training (linear learning rate scaling with warm-up) is not general enough and training may diverge. To overcome this optimization difficulties we propose a new training algorithm based on Layer-wise Adaptive Rate Scaling (LARS). Using LARS, we scaled Alexnet up to a batch size of 8K, and Resnet-50 to a batch size of 32K without loss in accuracy.
+
+- [paper](https://arxiv.org/abs/1708.03888)
+- [with comments](docs/1708.03888.pdf)
+
+# Unsupervised Feature Learning via Non-Parametric Instance-level Discrimination
+read: to be
+
+Zhirong Wu, Yuanjun Xiong, Stella Yu, Dahua Lin
+(Submitted on 5 May 2018)
+
+Neural net classifiers trained on data with annotated class labels can also capture apparent visual similarity among categories without being directed to do so. We study whether this observation can be extended beyond the conventional domain of supervised learning: Can we learn a good feature representation that captures apparent similarity among instances, instead of classes, by merely asking the feature to be discriminative of individual instances? We formulate this intuition as a non-parametric classification problem at the instance-level, and use noise-contrastive estimation to tackle the computational challenges imposed by the large number of instance classes. Our experimental results demonstrate that, under unsupervised learning settings, our method surpasses the state-of-the-art on ImageNet classification by a large margin. Our method is also remarkable for consistently improving test performance with more training data and better network architectures. By fine-tuning the learned feature, we further obtain competitive results for semi-supervised learning and object detection tasks. Our non-parametric model is highly compact: With 128 features per image, our method requires only 600MB storage for a million images, enabling fast nearest neighbour retrieval at the run time.
+
+- [paper](https://arxiv.org/abs/1805.01978)
+
 # A Simple Framework for Contrastive Learning of Visual Representations
 read: 2020-03-29
 
